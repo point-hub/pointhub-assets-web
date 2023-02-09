@@ -1,0 +1,5 @@
+@layer base {
+  :root {
+    @apply [--sidebar-panel-width:15rem];
+  }
+}

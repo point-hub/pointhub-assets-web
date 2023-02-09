@@ -1,0 +1,17 @@
+@layer components {
+  .preloader {
+    @apply w-full h-100vh flex flex-col justify-center items-center text-slate-50 bg-slate-900 relative z-50;
+  }
+  .preloader-status {
+    @apply w-full flex flex-col justify-center items-center;
+  }
+  .preloader-status-text {
+    @apply text-[28px] mb-[20px];
+  }
+  .preloader-status-loader {
+    @apply w-full h-[3px];
+  }
+  .preloader-status-bar {
+    @apply bg-slate-300 h-full;
+  }
+}

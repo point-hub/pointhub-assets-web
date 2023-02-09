@@ -1,0 +1,17 @@
+@layer components {
+  .main-content {
+    @apply mt-[60px] py-2 w-full lg:w-full px-4 lg:px-8 dark:bg-slate-800 text-black dark:text-white;
+  }
+  
+  .is-sidebar-open .main-content {
+    @apply w-full lg:w-[calc(100%-(var(--sidebar-panel-width)))] lg:ml-[calc(var(--sidebar-panel-width))];
+  }
+
+  .main-content-container {
+    @apply flex flex-col justify-center py-5 space-y-5 lg:py-6 pb-[60px] lg:pb-5;
+  }
+
+  .main-content-header {
+    @apply flex flex-col lg:flex-row lg:space-x-10 lg:items-center;
+  }
+}

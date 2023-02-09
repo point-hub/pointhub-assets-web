@@ -1,0 +1,9 @@
+@layer components {
+  nav.header {
+    @apply fixed top-0 flex w-full h-[3.5rem] z-20 p-6 lg:px-8 bg-white dark:bg-slate-800 shadow lg:shadow-none;
+  }
+  
+  .is-sidebar-open nav.header {
+    @apply lg:w-[calc(100%-(var(--sidebar-panel-width)))] lg:ml-[var(--sidebar-panel-width)];
+  }
+}

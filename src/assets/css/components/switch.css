@@ -1,0 +1,11 @@
+@layer base {
+  .switch::before {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  .switch {
+    @apply before:absolute before:top-[2px] before:left-[2px] before:h-[calc(100%-2px*2)] before:w-[calc((100%/2)-(2px*2))] focus-visible:ring checked:before:translate-x-[calc(100%+(2px*2))] 
+      dark:bg-slate-900 dark:checked:bg-slate-400 bg-slate-300 before:bg-slate-50 checked:bg-slate-500 
+      relative shrink-0 cursor-pointer select-none appearance-none overflow-hidden outline-none focus:outline-none h-5 w-10 rounded-full before:rounded-full
+  }
+}

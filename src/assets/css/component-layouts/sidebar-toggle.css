@@ -1,0 +1,17 @@
+@layer components {
+  .is-sidebar-open .sidebar-toggle span {
+    @apply ml-2 w-[11px] -translate-x-2;
+  }
+
+  .is-sidebar-open .sidebar-toggle span:nth-child(1) {
+    @apply -rotate-45;
+  }
+
+  .is-sidebar-open .sidebar-toggle span:nth-child(2) {
+    @apply hidden;
+  }
+
+  .is-sidebar-open .sidebar-toggle span:nth-child(3) {
+    @apply rotate-45;
+  }
+}

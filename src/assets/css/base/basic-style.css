@@ -1,0 +1,13 @@
+@layer base {
+  html {
+    @apply h-full overflow-x-hidden [text-rendering:optimizeLegibility] [-webkit-tap-highlight-color:transparent];
+  }
+
+  html.dark {
+    @apply [color-scheme:dark];
+  }
+
+  body {
+    @apply bg-white font-montserrat text-sm leading-5 text-slate-700 antialiased [text-rendering:optimizeLegibility] dark:bg-slate-800 dark:text-slate-200 dark:[color-scheme:dark];
+  }
+}
