@@ -1,7 +1,7 @@
 <template>
   <p class="px-2 pb-5 text-3xl font-extrabold tracking-wider">Typography</p>
-  <div class="flex pb-10 lg:space-x-10 lg:flex-row flex-col lg:space-y-0 space-y-10">
-    <div class="font-montserrat space-y-5">
+  <div class="md:grid-cols-2 lg:grid-cols-3 pb-10 grid grid-cols-1 gap-4">
+    <div class="space-y-5">
       <div>
         <p class="px-2 text-2xl tracking-wider">
           <span class="font-extrabold">Mont</span>
@@ -9,7 +9,7 @@
         </p>
         <p class="px-2 text-lg font-light tracking-wider">Primary Typeface</p>
       </div>
-      <div class="w-[450px] bg-gray-100 text-gray-800 p-8 space-y-4 rounded-xl shadow text-lg">
+      <div class="bg-gray-100 text-gray-800 p-8 space-y-4 rounded-xl shadow text-lg">
         <div class="flex justify-between">
           <p class="font-light">Montserrat Light</p>
           <p>300</p>
@@ -35,7 +35,7 @@
           <p>800</p>
         </div>
       </div>
-      <div class="w-[450px] bg-gray-900 text-white p-8 space-y-4 rounded-xl shadow text-lg">
+      <div class="bg-gray-900 text-white p-8 space-y-4 rounded-xl shadow text-lg">
         <div class="flex justify-between">
           <p class="font-light">Montserrat Light</p>
           <p>300</p>
@@ -86,7 +86,7 @@
         <p class="font-mosk px-2 text-2xl font-extrabold tracking-wider">Mosk</p>
         <p class="font-mosk px-2 text-lg font-light tracking-wider">Secondary Typeface</p>
       </div>
-      <div class="font-mosk w-[450px] bg-gray-100 text-gray-800 p-8 space-y-4 rounded-xl shadow text-lg">
+      <div class="font-mosk w-full bg-gray-100 text-gray-800 p-8 space-y-4 rounded-xl shadow text-lg">
         <div class="flex justify-between">
           <p class="font-light">Mosk Light</p>
           <p>300</p>
@@ -112,7 +112,7 @@
           <p>800</p>
         </div>
       </div>
-      <div class="font-mosk w-[450px] bg-gray-900 text-white p-8 space-y-4 rounded-xl shadow text-lg">
+      <div class="font-mosk w-full bg-gray-900 text-white p-8 space-y-4 rounded-xl shadow text-lg">
         <div class="flex justify-between">
           <p class="font-light">Mosk Light</p>
           <p>300</p>
