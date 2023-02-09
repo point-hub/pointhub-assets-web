@@ -7,10 +7,10 @@
         <div class="sidebar-panel-container">
           <!-- Sidebar Panel Header -->
           <div class="sidebar-panel-header">
-            <p class="text-base tracking-wider dark:text-slate-100">
+            <a href="https://www.pointhub.net" class="text-base tracking-wider dark:text-slate-100">
               <img v-if="!isDark" src="@/assets/logo/primary/logo.png" alt="Pointhub" />
               <img v-else src="@/assets/logo/white/logo.png" alt="Pointhub" />
-            </p>
+            </a>
             <button class="mx-2 lg:hidden" @click="sidebarStore.closeSidebar()">
               <fa-icon icon="fa-solid fa-angle-left w-5 h-5 text-gray-200"></fa-icon>
             </button>
