@@ -1,20 +1,13 @@
 @layer base {
-  @font-face {
-    font-family: 'Mosk';
-    font-weight: 400;
-    src: url('../fonts/mosk/mosk-normal-300.ttf')
-      url('../fonts/mosk/mosk-normal-400.ttf')
-      url('../fonts/mosk/mosk-normal-500.ttf')
-      url('../fonts/mosk/mosk-normal-600.ttf')
-      url('../fonts/mosk/mosk-normal-700.ttf')
-      url('../fonts/mosk/mosk-normal-800.ttf') format('ttf');
-  }
-
   .font-montserrat {
     font-family: 'Montserrat';
   }
 
-  .font-mosk {
-    font-family: 'Mosk';
+  .font-roboto {
+    font-family: 'Roboto';
+  }
+
+  .font-modified-mosk {
+    font-family: 'Modified Mosk';
   }
 }

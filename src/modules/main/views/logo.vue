@@ -9,7 +9,7 @@
         <div class="items-center justify-between text-lg flex w-full">
           <p>Original logo on white background</p>
           <a
-            href="https://pointhub-public.s3.us-west-001.backblazeb2.com/logo/primary/logo.png"
+            href="/assets/images/logo/primary/logo.png"
             class="btn py-2 px-5 rounded-full border text-sm font-bold hover:bg-blue-600 hover:text-white"
             download
           >
@@ -24,7 +24,7 @@
         <div class="items-center justify-between text-lg flex w-full">
           <p>Original logo on dark background</p>
           <a
-            href="https://pointhub-public.s3.us-west-001.backblazeb2.com/logo/white/logo.png"
+            href="/assets/images/logo/white/logo.png"
             class="btn py-2 px-5 rounded-full border text-sm font-bold hover:bg-blue-600 hover:text-white"
             download
           >

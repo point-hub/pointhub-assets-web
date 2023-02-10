@@ -12,7 +12,7 @@
             <div class="items-center justify-between text-lg flex w-full">
               <p>Original icon</p>
               <a
-                href="https://pointhub-public.s3.us-west-001.backblazeb2.com/logo/primary/icon-rounded.png"
+                href="/assets/images/logo/primary/icon-rounded.png"
                 class="btn py-2 px-5 rounded-full border text-sm font-bold hover:bg-blue-600 hover:text-white"
                 download
               >
@@ -32,7 +32,7 @@
             <div class="items-center justify-between text-lg flex w-full">
               <p>Original icon on rounded background</p>
               <a
-                href="https://pointhub-public.s3.us-west-001.backblazeb2.com/logo/primary/icon-rounded.png"
+                href="/assets/images/logo/primary/icon-rounded.png"
                 class="btn py-2 px-5 rounded-full border text-sm font-bold hover:bg-blue-600 hover:text-white"
                 download
               >
@@ -47,7 +47,7 @@
             <div class="items-center justify-between text-lg flex w-full">
               <p>Original icon on circle background</p>
               <a
-                href="https://pointhub-public.s3.us-west-001.backblazeb2.com/logo/primary/icon-circle.png"
+                href="/assets/images/logo/primary/icon-circle.png"
                 class="btn py-2 px-5 rounded-full border text-sm font-bold hover:bg-blue-600 hover:text-white"
                 download
               >
