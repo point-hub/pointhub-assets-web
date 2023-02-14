@@ -7,7 +7,7 @@
         <div class="sidebar-panel-container">
           <!-- Sidebar Panel Header -->
           <div class="sidebar-panel-header">
-            <a href="https://www.pointhub.net" class="text-base tracking-wider dark:text-slate-100">
+            <a href="https://www.pointhub.net" class="text-base tracking-wider dark:text-slate-100 px-8 py-2">
               <img v-if="!isDark" src="@/assets/logo/primary/logo.png" alt="Pointhub" />
               <img v-else src="@/assets/logo/white/logo.png" alt="Pointhub" />
             </a>
