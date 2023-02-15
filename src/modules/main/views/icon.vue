@@ -6,7 +6,9 @@
         <p class="px-2 text-lg font-semibold">Primary</p>
         <div class="p-2 flex-col space-y-10">
           <div class="max-w-screen-sm flex flex-col items-center justify-center space-y-4">
-            <div class="shadow-lg w-full bg-[#1E8E42] items-center justify-center text-center flex p-24 rounded-xl">
+            <div
+              class="shadow-lg w-full bg-[#1E8E42] items-center justify-center text-center flex py-20 px-4 rounded-xl"
+            >
               <img src="@/assets/logo/primary/icon-rounded.png" alt="" class="w-24" />
             </div>
             <div class="items-center justify-between text-lg flex w-full">
@@ -26,7 +28,7 @@
         <p class="px-2 text-lg font-semibold">Primary - Rounded, Circle</p>
         <div class="p-2 flex-col space-y-10">
           <div class="max-w-screen-sm flex flex-col items-center justify-center space-y-4">
-            <div class="shadow-lg w-full bg-white items-center justify-center text-center flex p-24 rounded-xl">
+            <div class="shadow-lg w-full bg-white items-center justify-center text-center flex py-20 px-4 rounded-xl">
               <img src="@/assets/logo/primary/icon-rounded.png" alt="" class="w-24" />
             </div>
             <div class="items-center justify-between text-lg flex w-full">
@@ -41,7 +43,7 @@
             </div>
           </div>
           <div class="max-w-screen-sm flex flex-col items-center justify-center space-y-4">
-            <div class="shadow-lg w-full bg-white items-center justify-center text-center flex p-24 rounded-xl">
+            <div class="shadow-lg w-full bg-white items-center justify-center text-center flex py-20 px-4 rounded-xl">
               <img src="@/assets/logo/primary/icon-circle.png" alt="" class="w-24" />
             </div>
             <div class="items-center justify-between text-lg flex w-full">

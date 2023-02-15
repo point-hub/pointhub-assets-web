@@ -3,7 +3,7 @@
     <p class="px-2 text-3xl font-extrabold tracking-wider">Logo</p>
     <div class="p-2 flex-col space-y-10">
       <div class="max-w-screen-sm flex flex-col items-center justify-center space-y-4">
-        <div class="shadow-lg py-20 w-full bg-white items-center justify-center text-center flex rounded-xl">
+        <div class="shadow-lg py-20 px-10 w-full bg-white items-center justify-center text-center flex rounded-xl">
           <img src="@/assets/logo/primary/logo.png" alt="" class="w-96" />
         </div>
         <div class="items-center justify-between text-lg flex w-full">
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="max-w-screen-sm flex flex-col items-center justify-center space-y-4">
-        <div class="shadow-lg py-20 w-full bg-slate-900 items-center justify-center text-center flex rounded-xl">
+        <div class="shadow-lg py-20 px-10 w-full bg-slate-900 items-center justify-center text-center flex rounded-xl">
           <img src="@/assets/logo/white/logo.png" alt="" class="w-96" />
         </div>
         <div class="items-center justify-between text-lg flex w-full">
